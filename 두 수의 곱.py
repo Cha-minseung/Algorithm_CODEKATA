@@ -1,11 +1,11 @@
-a = int(input("첫 번째 정수를 입력하세요: "))  # 정수 입력받기
-b = int(input("두 번째 정수를 입력하세요: "))
+a = int(input("Please enter the first integer: "))
+b = int(input("Please enter a second integer: "))
 
 
-def sum_multip(a, b):  # 함수 정의하기
+def sum_multip(a, b):
     return a*b
 
 
 result = (sum_multip(a, b))
 
-print("두 수의 곱은", result, "입니다.")
+print("The product of two numbers is", result)
